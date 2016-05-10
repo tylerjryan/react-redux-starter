@@ -1,0 +1,12 @@
+env:
+  mocha: true
+  node: true
+extends:
+  - airbnb
+parserOptions:
+  ecmaFeatures:
+    experimentalObjectRestSpread: true
+plugins:
+  - react
+rules:
+  no-console: 0
