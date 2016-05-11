@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { addEntity } from '../actions';
-import TabsInstance from '../components/Tabs';
+import TabsInstance from '../components/TabsInstance';
 
 const mapStateToProps = (state) => (
   { entities: state }

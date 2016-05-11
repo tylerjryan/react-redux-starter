@@ -1,4 +1,5 @@
+let nextIndex = 1;
 export const addEntity = () => ({
   type: 'SAMPLE_ACTION',
-  text: 'oiawejfw',
+  text: `Entity ${nextIndex++}`,
 });
